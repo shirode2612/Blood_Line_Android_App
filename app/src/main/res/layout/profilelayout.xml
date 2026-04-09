@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E8977021">
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DONOR PROFILE"
+        android:id="@+id/txtprofile"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#FD38095A"/>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="103dp"
+        app:civ_border_color="#000"
+        app:civ_border_width="3dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/girl_profile" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:background="#43DCE5E9"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_person_black"
+            android:drawablePadding="15dp"
+            android:hint="Enter Name" />
+
+        <EditText
+            android:id="@+id/edtmobno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_phone_black"
+            android:drawablePadding="15dp"
+            android:hint="Contact No" />
+
+        <EditText
+            android:id="@+id/edtemailid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="E-mail Id" />
+
+        <EditText
+            android:id="@+id/edtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_home_black"
+            android:drawablePadding="15dp"
+            android:hint="Address" />
+        <EditText
+            android:id="@+id/edtage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:inputType="number"
+            android:drawableLeft="@drawable/ic_person_outline"
+            android:drawablePadding="15dp"
+            android:hint="Age" />
+
+
+        <EditText
+            android:id="@+id/edtcity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_location_city"
+            android:drawablePadding="15dp"
+            android:hint="City" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Blood Group"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/ic_format_bold"
+            android:id="@+id/txtblood"
+            android:textSize="20dp"/>
+
+
+
+        <CheckBox
+            android:id="@+id/cbcheck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="I want to be donor"
+            android:textColor="#ffff"
+            android:textSize="20dp" />
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnedit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/roundshape"
+            android:text="SAVE"
+            android:textColor="#fff" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

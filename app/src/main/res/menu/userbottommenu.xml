@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mnRequestform"
+        android:title="ReqForm"
+        android:icon="@drawable/ic_description"/>
+
+
+    <item android:id="@+id/mndonor"
+        android:title="Donor"
+        android:icon="@drawable/ic_airline_seat_recline"/>
+
+    <item android:id="@+id/mnrequest"
+        android:title="Request"
+        android:icon="@drawable/ic_transfer_within_a_station"/>
+
+
+    <item android:id="@+id/mnprofile"
+        android:title="Profile"
+        android:icon="@drawable/ic_assignment"/>
+
+    <item android:id="@+id/mnbank"
+        android:title="Bank"
+        android:icon="@drawable/ic_local_hospital_black_24dp"/>
+
+
+</menu>

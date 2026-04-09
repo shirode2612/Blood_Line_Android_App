@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:textStyle="italic"/>
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:background="#C9BB1E67"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtblood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_format_bold"
+            android:drawablePadding="10dp"
+            android:textColor="#fff"
+            android:layout_marginRight="15dp"
+            android:text="Select Blood Group"
+            android:textSize="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"
+            android:id="@+id/edtbags"
+            android:drawableLeft="@drawable/ic_bags"
+            android:drawablePadding="10dp"
+            android:inputType="number"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:hint="Enter Bags"
+            android:textSize="20dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADD"
+                android:layout_marginTop="35dp"
+                android:layout_gravity="center"
+                android:id="@+id/btnadd"/>
+
+
+    </LinearLayout>
+</LinearLayout>

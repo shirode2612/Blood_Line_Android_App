@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Blood Line</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="City_item">
+        <item>Amalner</item>
+        <item>Dhule</item>
+        <item>Nashik</item>
+        <item>Pune</item>
+        <item>Aurangabad</item>
+        <item>Mumbai</item>
+        <item>Amravati</item>
+        <item>Amalner</item>
+        <item>Bhusawal</item>
+        <item>Ahamadabad</item>
+    </string-array>
+    <string-array name="Blood_Items">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="Bags_Item">
+        <item>1 bag</item>
+        <item>2 bag</item>
+        <item>3 bag</item>
+        <item>4 bag</item>
+        <item>5 bag</item>
+    </string-array>
+
+    <string-array name="Reason_Item">
+        <item>Being Treated For Cancer </item>
+        <item>For Surgery</item>
+        <item>For Operation</item>
+        <item>For Accident Victim</item>
+        <item>For Emergency</item>
+           </string-array>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_Home">Home</string>
+    <string name="nav_donorlist">Donor List</string>
+    <string name="nav_requestlist">Request List</string>
+    <string name="nav_bankstatus">Bank Status</string>
+    <string name="openDrawer">Open Drawer</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>HOME</item>
+        <item>DONOR LIST</item>
+        <item>REQUEST LIST</item>
+        <item>BANK STATUS</item>
+
+    </string-array>
+
+</resources>

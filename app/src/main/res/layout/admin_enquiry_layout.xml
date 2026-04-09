@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:cardCornerRadius="45dp"
+            app:cardElevation="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:text="Full Name"
+                android:textSize="20dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:id="@+id/txtfname"
+                android:textStyle="bold"
+                android:background="#3C0530"
+                android:textColor="#fff"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="55dp"
+                android:background="#E211470B"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtcity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_location_city"
+                    android:drawablePadding="15dp"
+                    android:text="City"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:id="@+id/txtrqage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_person_outline"
+                    android:drawablePadding="15dp"
+                    android:text="Age"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+
+
+
+                <TextView
+                    android:id="@+id/txtblood"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_format_bold"
+                    android:drawablePadding="15dp"
+                    android:text="Blood Group"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtbags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_bags"
+                    android:drawablePadding="15dp"
+                    android:text="Bags"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp">
+                <Button
+                    android:id="@+id/btndelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="230dp"
+                    android:layout_marginTop="0dp"
+                    android:backgroundTint="#000"
+                    android:text="Delete"
+                    android:textColor="#fff" />
+
+
+
+                <TextView
+                    android:id="@+id/txtmobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_phone_black"
+                    android:drawablePadding="15dp"
+                    android:text="Contact No"
+                    android:textColor="#fff"
+                    android:textSize="20dp"/>
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:id="@+id/txtdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_perm_contact_calendar"
+                    android:drawablePadding="15dp"
+                    android:text="Date"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_access_time"
+                    android:drawablePadding="15dp"
+                    android:text="Time"
+                    android:id="@+id/txttime"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+                <TextView
+                    android:id="@+id/txthospital"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:drawableLeft="@drawable/ic_local_hospital"
+                    android:drawablePadding="15dp"
+                    android:text="Hospital"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    />
+
+
+
+
+                    <TextView
+                        android:id="@+id/txtneed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@drawable/ic_home_black"
+                        android:drawablePadding="15dp"
+                        android:text="Need Blood"
+                        android:textColor="#fff"
+                        android:textSize="20dp" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

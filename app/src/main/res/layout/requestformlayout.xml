@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+<LinearLayout
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/edtfname"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:drawablePadding="10dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:textColor="#000"
+        android:id="@+id/edtcity"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact No"
+        android:layout_marginLeft="7dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:textSize="20dp"
+        android:id="@+id/edtmobile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginLeft="7dp"
+        android:textColor="#000"
+        android:inputType="number"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="15dp"
+        android:textSize="20dp"
+        android:id="@+id/edtreq_age"
+        />
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Blood Group"
+            android:layout_marginTop="10dp"
+            android:textColor="#000"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="15dp"
+            android:id="@+id/txtblood"
+            android:textSize="20dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Bags"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:drawablePadding="15dp"
+            android:textColor="#000"
+            android:id="@+id/txtbags"
+            android:textSize="20dp"/>
+
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/ic_perm_calendar"
+        android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/txtdate"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:drawableLeft="@drawable/ic_access_time_black"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/txttime"
+            />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address/Name(Hospital)"
+            android:inputType="text"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:textColor="#000"
+            android:id="@+id/edthospital"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:hint="Why Do You Need Blood ?"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:id="@+id/txtneed"
+            />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/roundshape"
+        android:padding="20dp"
+        android:text="REQUEST"
+        android:textColor="#ffff"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btnrequest"/>
+
+</LinearLayout>
+
+</ScrollView>
